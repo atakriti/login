@@ -86,4 +86,66 @@ opacity: 0.2;
     opacity: 0.2;
     }
 
-    
+    .twitter{
+        position: relative;
+    }
+    .twitter>i{
+        position: absolute;
+    top: 48px;
+    left: 90px;
+    color: white;
+    }
+
+    .twitter a{
+        padding: 20px 130px;
+        background-color: rgb(110, 202, 255);
+        color: white;
+        font-size: 22px;
+    }
+    .twitter a::after{
+        position: absolute;
+        content: "";
+        background-color: rgb(0, 52, 148);
+        height: 50px;
+        width: 2px;
+        top: 40px;
+        left: 134px;
+        opacity: 0.2;
+        }
+
+
+        .sign {
+            position: relative;
+            bottom: 478px;
+            left: 506px;
+            border: 1px red solid;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            line-height: 7rem;
+
+        }
+        .sign>p{
+            font-size: 40px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .sign>[type="text"]{
+            margin-bottom: 40px;
+            padding: 20px 120px;
+        }
+        .sign>[type="password"]{
+            margin-bottom: 0px;
+            padding: 20px 120px;
+        }
+
+        .login-btn>[type="button"]{
+            font-size: 30px;
+            margin-left: 50px;
+            font-size: 20px;
+            padding: 7px 25px;
+            background-color: rgb(104, 182, 255);
+            color: white;
+            border-radius: 6px;
+        }
+
