@@ -203,10 +203,12 @@ i {
 }
 .username > input {
   position: absolute;
-  padding: 10px 90px;
+  padding: 10px 0px;
   left: 50px;
   bottom: 0;
   border: none;
+  font-size: 28px;
+  outline: none;
 }
 .username > i {
   position: absolute;
@@ -216,7 +218,7 @@ i {
 .username > input[type="text"]::placeholder {
   font-size: 20px;
   position: relative;
-  right: 80px;
+  
 }
 /* ............................. password .......................... */
 
@@ -229,10 +231,12 @@ i {
 }
 .pass > input {
   position: absolute;
-  padding: 10px 90px;
+  padding: 10px 3px;
   left: 44px;
   bottom: 0;
   border: none;
+  font-size: 28px;
+  outline: none;
 }
 .pass > i {
   position: absolute;
@@ -242,7 +246,6 @@ i {
 .pass > input[type="password"]::placeholder {
   font-size: 20px;
   position: relative;
-  right: 80px;
 }
 
 
