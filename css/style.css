@@ -5,6 +5,7 @@
 }
 .main-container {
   border: 1px gray solid;
+  
   width: 60rem;
   height: 30rem;
   margin-left: auto;
@@ -45,6 +46,7 @@ i {
   font-size: 22px;
   border-radius: 6px;
   box-shadow:7px 7px 7px rgb(184, 184, 184);
+  box-shadow: inset 7px 7px 15px rgb(143, 214, 255);
 }
 
 .facebook a::after {
@@ -74,6 +76,7 @@ i {
   font-size: 22px;
   border-radius: 6px;
   box-shadow:7px 7px 7px rgb(184, 184, 184);
+  box-shadow: inset 7px 7px 15px rgb(255, 143, 143);
 }
 .google a::after {
   position: absolute;
@@ -103,6 +106,7 @@ i {
   font-size: 22px;
   border-radius: 6px;
   box-shadow:7px 7px 7px rgb(184, 184, 184);
+  box-shadow: inset 7px 7px 15px rgb(212, 239, 255);
 }
 .twitter a::after {
   position: absolute;
@@ -133,6 +137,7 @@ i {
 }
 
 .login-btn > [type="button"] {
+  border: 1px solid skyblue;
   margin-left: 50px;
   font-size: 20px;
   padding: 7px 25px;
@@ -140,8 +145,18 @@ i {
   color: white;
   border-radius: 6px;
   cursor: pointer;
+  box-shadow: inset 5px 5px 10px rgb(203, 230, 255);
 
 }
+.login-btn > [type="button"]:hover {
+  opacity: 0.7;
+
+}
+.login-btn > [type="button"]:active {
+  background-color: slategray;
+
+}
+
 
 
 
@@ -235,11 +250,13 @@ i {
 
 .end {
   border-top: 1px rgb(160, 160, 160) solid;
+  border-bottom: 1px rgb(160, 160, 160) solid;
   position: relative;
   bottom: 24rem;
   height: 3rem;
   text-align: center;
   padding-top: 10px;
+  background-color: rgb(238, 250, 255);
 }
 .end a{
   margin-right: 10PX;
